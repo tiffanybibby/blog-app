@@ -10,8 +10,12 @@
 
 .nav-link {
   padding-left: 30px;
+  text-decoration: none !important;
+  color: black;
 }
 
 .link {
   padding-right: 30px;
+  text-decoration: none !important;
+  color: black;
 }
