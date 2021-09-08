@@ -11,7 +11,7 @@ function Nav() {
         <NavLink className="link" to="/create-post">
           New Post
         </NavLink>   
-          iv>
+         </div>
     </nav>
   );
 }
