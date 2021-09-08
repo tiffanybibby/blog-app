@@ -1,10 +1,19 @@
-import './Nav.css'
+import "./Nav.css";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
-
   return (
-    <h1>Nav</h1>
-  )
+    <nav>
+      <div className="nav">
+        <NavLink className="nav-link" to="/">
+          Home
+        </NavLink>
+        <NavLink className="link" to="/create-post">
+          New Post
+        </NavLink>   
+          iv>
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;
